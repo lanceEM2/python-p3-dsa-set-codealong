@@ -40,13 +40,14 @@ class TestSet:
 
 
 # Bonus test
-"""
+
     def test_clear(self):
         '''Test clearing set'''
         test_set = MySet([1,2,3,4])
         test_set.clear()
         assert(len(test_set.dictionary) == 0)
 
+"""
     def test_str(self):
         '''Test __str__()'''
         test_set = MySet([1,2,3,4])
